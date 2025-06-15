@@ -164,8 +164,8 @@
                 updateScore(result);
                 document.querySelector('.js-result').innerHTML = `
         ${result}<br><br>
-        You selected: <img src="/img/${playerMove.toLowerCase()}-emoji.png" class="move-icon" alt="${playerMove}"><br>
-        Computer selected: <img src="/img/${computerMove.toLowerCase()}-emoji.png" class="move-icon" alt="${computerMove}"><br><br>
+        You selected: <img src="img/${playerMove.toLowerCase()}-emoji.png" class="move-icon" alt="${playerMove}"><br>
+        Computer selected: <img src="img/${computerMove.toLowerCase()}-emoji.png" class="move-icon" alt="${computerMove}"><br><br>
         Wins: ${score.Won}, Losses: ${score.Lost}, Ties: ${score.Tie}`;
             }
 
@@ -185,8 +185,8 @@
                 updateScore(result);
                 document.querySelector('.js-result').innerHTML = `
         ${result}<br><br>
-        You selected: <img src="/img/${playerMove.toLowerCase()}-emoji.png" class="move-icon" alt="${playerMove}"><br>
-        Computer selected: <img src="/img/${computerMove.toLowerCase()}-emoji.png" class="move-icon" alt="${computerMove}"><br><br>
+        You selected: <img src="img/${playerMove.toLowerCase()}-emoji.png" class="move-icon" alt="${playerMove}"><br>
+        Computer selected: <img src="img/${computerMove.toLowerCase()}-emoji.png" class="move-icon" alt="${computerMove}"><br><br>
         Wins: ${score.Won}, Losses: ${score.Lost}, Ties: ${score.Tie}`;
             }
 
@@ -207,8 +207,8 @@
                 localStorage.setItem('score', JSON.stringify(score));
                 document.querySelector('.js-result').innerHTML = `
         ${result}<br><br>
-        You selected: <img src="/img/${playerMove.toLowerCase()}-emoji.png" class="move-icon" alt="${playerMove}"><br>
-        Computer selected: <img src="/img/${computerMove.toLowerCase()}-emoji.png" class="move-icon" alt="${computerMove}"><br><br>
+        You selected: <img src="img/${playerMove.toLowerCase()}-emoji.png" class="move-icon" alt="${playerMove}"><br>
+        Computer selected: <img src="img/${computerMove.toLowerCase()}-emoji.png" class="move-icon" alt="${computerMove}"><br><br>
         Wins: ${score.Won}, Losses: ${score.Lost}, Ties: ${score.Tie}`;
             }
         }
